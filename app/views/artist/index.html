@@ -1,0 +1,18 @@
+<div ng-app="artistApp">
+
+  <div ng-controller="IndexCtrl">
+    <div class="spinner" ng-show="loading"></div>
+    <div class="topcoat-list__container">
+
+      <ul class="topcoat-list">
+        <!-- order is reversed created timestamp -->
+        <li class="topcoat-list__item" hm-tap="open(artist._id)" ng-repeat="artist in artists">
+          Artist: {{ artist.name }}
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
