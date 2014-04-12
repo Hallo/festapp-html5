@@ -19,4 +19,5 @@ module.factory('ArtistRestangular', function(Restangular) {
 });
 
 
+});
 })();

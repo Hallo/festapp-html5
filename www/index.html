@@ -13,9 +13,15 @@
 
   <!-- cordova.js is served from localhost to ensure the correct version -->
   <script src="http://localhost/cordova.js"></script>
+  <script src="/components/angular/angular.js"></script>
   <script src="/components/steroids-js/steroids.js"></script>
+  <script src="/components/restangular/src/restangular.js"></script>
 
   <script src="/javascripts/application.js"></script>
+  <script src="/controllers/artist.js"></script>
+
+  <script src="/models/artist.js"></script>
+
   <script>
     function showBands() {
       var webView = new steroids.views.WebView("/views/artist/index.html");

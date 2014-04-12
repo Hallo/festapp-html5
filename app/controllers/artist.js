@@ -7,6 +7,7 @@ artistApp.controller('IndexCtrl', function ($scope, ArtistRestangular) {
 
   // This will be populated with Restangular
   $scope.artists = [];
+  $scope.jee = "HAH";
 
   // Helper function for opening new webviews
   $scope.open = function(id) {
